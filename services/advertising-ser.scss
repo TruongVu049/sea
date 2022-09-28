@@ -1,0 +1,52 @@
+/* =========================== SERVICES ====================== */
+
+/* ================== SERVICE ================================*/ 
+.service-sec2 {
+    background-image: none;
+    .sec2-bg {
+        background-image: none;
+    }
+    .advertising {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        .advertising-grid h4 {
+            font-size: 24px;
+            line-height: 38px;
+        }
+        .advertising-25 {
+            width: 80%;
+            .ser-line {
+                height: 4px;
+                width: 100px;
+                background-color: $primary-color;
+            }
+            .h2-title {
+                padding: 20px 0;
+            }
+            p {
+                padding-bottom: 30px;
+            }
+        }
+        .advertising-75 {
+            width: 100%;
+        }
+        .advertising-grid i {
+            font-size: 24px;
+            line-height: 24px;
+        }
+        .advertising-grid {
+            column-gap: 40px;
+            row-gap: 20px;
+        }
+        .advertising-grid .advertising-items {
+            padding: 0;
+        }
+    }
+    .box-bottom {
+        svg {
+            transform: translateX(-50%) rotateY(0);
+        }
+    }
+
+}

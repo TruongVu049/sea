@@ -1,0 +1,47 @@
+.process-sec2 {
+    background-color: $bg-color;
+    color: $gray-color;
+    .advertising {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        .advertising-25 {
+            width: 50%;
+            color: $gray-color;
+            .h5-title {
+                color: $primary-color;
+            }
+            .h2-title {
+                color: $dark-color;
+            }
+        }
+        .advertising-grid {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            row-gap: 0;
+            column-gap: 10px;
+            color: $gray-color;
+            h4 {
+                color: $dark-color
+            }
+            .advertising-items {
+                padding: 0 30px;
+                border-left: 1px solid $gray-color;
+                i {
+                    color: $primary-color;
+                }
+            }
+            .advertising-items:hover {
+                border-left-color: $primary-color;
+            }
+        }
+    }
+    .box-bottom {
+        svg {
+            path {
+                fill: $white-color;
+            }
+        }
+    }
+    
+}
+
+/* =================================== STUDIES =========================================== */

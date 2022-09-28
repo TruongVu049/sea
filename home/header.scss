@@ -1,0 +1,134 @@
+/* ================================ HEADER ==================================== */
+
+.header {
+    .header-nav {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        max-width: 1200px;  
+        right: 0;
+        left: 0;
+        padding: 0 20px;
+        @include between-center;
+
+    }
+    .nav-link {
+        @include al-center;
+
+    }
+    .nav-left {
+        @include al-center;
+
+    }
+    a {
+        fill: $white-color;
+        color: $gray-color;
+        font-weight: 600;
+        line-height: 88px;
+        padding: 0 24px;
+        transition: 0.3s;
+    }
+    a:hover {
+        color: $dark-color;
+    }
+    .nav-right {
+        span {
+            color: $gray-color;
+            font-size: 15px;
+            line-height: 27px;
+            text-transform: capitalize;
+        }
+        button {
+            border: 1.2px solid $white-color;
+            color: $primary-color;
+            font-size: 17px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            line-height: 16px;
+            padding: 13px 17px;
+            text-transform: uppercase;
+            transition: .3s;
+            margin-left: 10px;
+        }
+        button:hover {
+            background-color: $white-color;
+        }
+    }
+    .header-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(https://websitedemos.net/public-relations-agency-04/wp-content/uploads/sites/875/2021/10/public-relation-agency-template-hero-img-bg.svg);
+        height: 100vh;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 80vw auto;
+        transition: 0.3s;
+        .haeder-main__content {
+            height: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 30px;
+        }
+        h1 {
+            width: 80%;
+            color: $dark-color;
+            font-size: 80px;
+            font-weight: 800;
+            line-height: 96px;
+            margin-bottom: 20px;
+        }
+        p {
+            color: $gray-color;
+            line-height: 40px;
+            margin-left: 8px;
+            margin-bottom: 49px;
+        }
+        .header-container {
+            height: 100%;
+        }
+    }
+    .nav-link-mb {
+        display: none;
+        padding: 40px;
+        z-index: 99;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        background-color: #f3f4f6;
+        a {
+            display: inline-block;
+            font-size: 24px;
+            line-height: 72px;
+            padding: 0 20px;
+            margin-bottom: 40px;
+        }
+        .nav-link {
+            padding-left: 0;
+            flex-direction: column;
+        }
+        div {
+            i {
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 20px;
+            }
+        }
+    }
+
+}
+.header .header-nav .nav-right i {
+    display: none;
+    color: $primary-color;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding: 12px;
+    border: 1px solid $primary-color;
+}

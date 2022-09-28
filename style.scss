@@ -1,0 +1,32 @@
+@import "base";
+@import "variable";
+@import "./home/header";
+@import "./home/hi-there";
+@import "./home/advertising";  
+@import "./home/featured";
+@import "./home/user";
+@import "./home/case";
+@import "./home/our";
+@import "./home/footer";
+
+/* =========================== WORK ====================== */
+
+@import "./work/header-work";
+@import "./work/case-work";
+@import "./work/user-work";
+
+/* ============================ SERVICES ========================== */
+@import "./services/advertising-ser";
+@import "./services/process";
+@import "./services/case-ser";
+
+/* ============================= ABOUT ================================ */
+@import "./about/about-hi";
+@import "./about/story";
+
+/* =========================== CONTACT ========================== */
+@import "./contact/form";
+
+
+@import "responsive";
+

@@ -1,0 +1,66 @@
+/* ================================================= ADVERTISING ========================================*/
+
+.section2 {
+    background-color: #26262c;
+    background-image: url(https://websitedemos.net/public-relations-agency-04/wp-content/uploads/sites/875/2021/10/public-relation-agency-blue-triangle-shape.svg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 20vh auto;
+}
+.sec2-bg {
+    position: relative;
+    background-image: url(https://websitedemos.net/public-relations-agency-04/wp-content/uploads/sites/875/2021/10/public-relation-agency-tosca-triangle-shape.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 12vw auto;
+    opacity: 1;
+    padding: 120px 40px 0 40px;
+    
+}
+.advertising {
+    display: flex;
+    color: $white-color;
+   padding-bottom: 200px;
+    .advertising-25 {
+        width: 25%;
+        h5 {
+            color: $white-color;
+            text-align: left;
+        }
+    }
+
+    .advertising-75 {
+        width: 75%;
+
+        p {
+            line-height: 29px;
+            margin: 20px 0;
+        }
+    }
+
+    .advertising-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 60px;
+        .advertising-items {
+            padding: 40px 0;
+        }
+        i {
+            color: #2ccab9;
+            fill: #2ccab9;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 40px;
+        }
+        h4 {
+            font-size: 32px;
+            font-weight: ̃700;
+            line-height: 48px;
+            padding: 19px 0 4px;
+        }
+        
+
+    }
+    
+}
+

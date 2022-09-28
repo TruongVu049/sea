@@ -1,0 +1,429 @@
+/* =========================================== RESPONSIVE ===================================== */
+
+/* ============================ DESTOP MEDIUM ====================== */
+@media (max-width: 1060px) {
+    .advertising {
+        display: block;
+        .advertising-25, .advertising-75 {
+            width: 100%;
+        }
+    }
+    .header .header-nav .nav-right i {
+        display: block;
+    }
+    .header .header-nav .nav-link {
+        display: none;
+    }
+    .header .header-nav .nav-right span,
+    .header .header-nav .nav-right button {
+        display: none;
+    }
+    
+    .header .header-nav {
+        padding-top: 20px;
+    }
+}
+/* ============================ DESTOP SMALL =========================== */
+@media (max-width: 940px) {
+    .pad-sec {
+        padding: 80px 40px;
+    }
+    .header-main .haeder-main__content h1 {
+        font-size: 64px;
+        line-height: 76px;
+    }
+    .h5-title {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .h2-title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .btn .btn-a {
+        padding: 14px 22px;
+    }
+    .advertising .advertising-grid h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .advertising .advertising-grid .advertising-items {
+        padding: 40px 0;
+    }
+    .advertising .advertising-grid .advertising-items i {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .featured .featured-img h4 {
+        font-size: 24px;
+    }
+    .featured {
+        column-gap: 30px;
+    }
+    .featured .featured-right .btn-sec3 a span, .featured .featured-right .btn-sec3 a {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .section4 .user .content {
+        font-size: 28px;
+        line-height: 39px;
+    }
+    .section4 .user .i-left i {
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .section4 .user .i-right i {
+        font-size: 80px;
+    }
+    .section4 .user img {
+        height: 64px;
+        width: 64px;
+    }
+    .case .case-grid .case-left h3 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .case .case-grid .case-left {
+        padding: 0;
+        padding-right: 16px;
+    }
+    .case .case-grid .case-left-2 {
+        padding: 0;
+        padding-left: 24px;
+    }
+    footer h2 {
+        font-size: 22px;
+    }
+    .footer-top {
+        padding: 80px 40px 40px;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+    }
+    .header .header-nav .nav-link {
+        display: none;
+    }
+    .header .header-nav .nav-right span,
+    .header .header-nav .nav-right button {
+        display: none;
+    }
+    
+    .header .header-nav {
+        padding-top: 20px;
+    }
+}
+
+/* =========================== TABLET =========================== */
+@media (max-width: 770px){
+    .pad-sec {
+        padding: 48px 24px;
+    }
+    .section1 .hi-there {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .section1 h5 {
+        margin-bottom: 24px;
+    }
+    .advertising .advertising-grid .advertising-items i {
+        font-size: 24px;
+        line-height: 24px;
+        
+    }
+    .advertising .advertising-grid {
+        grid-template-columns: 1fr;
+    }
+    .advertising .advertising-grid .advertising-items {
+        padding: 24px 0;
+    }
+    .sec2-bg {
+        padding: 48px 24px 0;
+    }
+    .advertising {
+        padding-bottom: 96px;
+    }
+    .featured {
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .featured .featured-img {
+        padding: 40px 0 0px;
+    }
+    .featured .featured-right {
+        padding-top: 0px; 
+    }
+    .featured .featured-right .btn-sec3 a span, .featured .featured-right .btn-sec3 a {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .featured .featured-right .btn-sec3 {
+        margin-top: 54px;
+        text-align: center;
+    }
+    .section4 .user {
+        padding: 0; 
+        .content {
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+    .case .case-grid {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+    .case .case-grid {
+        padding-top: 20px;
+    }
+    .our .our-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ========================== MOBILE ================================ */
+@media (max-width: 540px){
+    p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .header-main .haeder-main__content h1 {
+        font-size: 34px;
+        line-height: 40px;
+        width: 100%;
+    }
+    .btn .btn-a {
+        padding: 13px 21px;
+    }
+    .h5-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .h2-title {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .case .case-grid .case-left h3 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .footer-top {
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .footer-bottom {
+        display: block;
+        text-align: center;
+    }
+    .footer-top .footer-items {
+        display: block;
+    }
+    .footer-link-i {
+        margin-top: 20px;
+        margin-left: 26px;
+    }
+}
+
+
+/* ===================== WORK =============================== */
+@media (max-width: 940px) {
+
+}
+@media (max-width: 860px) {
+    .section5-work .case .case-grid .case-left-2 {
+        padding: 0;
+    }
+    .section5-work .case .case-grid .case-left-2 {
+        padding: 24px;
+    }
+    .section5-work .case .case-right .case-wapper {
+        padding: 24px;
+    }
+    .section5 .case .case-right .case-img {
+        width: 100%;
+    }
+}
+@media (max-width: 770px) {
+    .section5-work .case-grid-work {
+        padding-bottom: 0;
+    }
+    .section5-work .case .case-grid .case-left-2 {
+        padding: 0;
+    }
+    .header-work .header-main {
+        background-position: bottom right;
+        height: 30vh;
+    }
+}
+
+/* ========================================= SERVICES ======================================== */
+@media (max-width: 1060px) {
+    .service-sec2 .advertising {
+        row-gap: 60px;
+        grid-template-columns: 1fr;
+    }
+    .process-sec2 .advertising .advertising-25 {
+        width: 70%;
+    }
+    .process-sec2 .advertising .advertising-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+    .process-sec2 .advertising .advertising-grid .advertising-items {
+        padding: 0;
+        border-left: none;
+        border-bottom: 1px solid $gray-color;
+        transition: border .3s;
+    }   
+    .process-sec2 .advertising .advertising-grid .advertising-items:hover {
+        border-bottom: 1px solid $primary-color;
+    }   
+    .case-ser .case-grid {
+        align-items: normal;
+        grid-template-columns: 40% 60%;
+        .case-right {
+            padding-right: 44px;
+        }
+        .case-left {
+            padding: 0;
+        }
+    }
+}   
+
+@media (max-width: 770px) {
+    .process-sec2 .advertising .advertising-grid {
+        grid-template-columns: 1fr;
+    }
+    .case-ser .case-grid {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        .case-right {
+            padding-right: 0;
+        }
+    }
+    /* =============================== STUDIES ============================ */ 
+    .studies-sec5 {
+    padding: 120px 40px 80px;
+    .case-grid {
+        padding-top: 0;
+        padding-bottom: 60px;
+        .case-left {
+            padding: 0;
+        }
+    }
+    .studies-case {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .case-right .case-wapper {
+        padding: 24px 0;
+    }
+    
+}
+}
+
+/* ========================================== ABOUT ==================================== */
+@media (max-width: 1060px) {
+    .section2-about {
+        padding: 48px 40px 80px;
+    }
+    .section1-about {
+        padding-left: 0;
+        padding-right: 0;
+        .sec1-about {
+            width: 100%;
+        }
+        .about-content {
+                display: block;
+                width: 100%;
+                padding: 40px 40px 0;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .section2-about .story-about {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .section2-about .story-about .story-left h6 {
+        padding-left: 0;
+    }
+    .section2-about .story-about .story-right {
+        padding-right: 0;
+    }
+
+
+    .section3-about {
+        .our {
+            .our-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .our-grid div:nth-child(3), .our-grid div:nth-child(4), .our-grid div:nth-child(5) {
+                display: none;
+            }
+        }
+    }
+    .section2-about .story-about .story-right .story-image {
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .section2-about .story-about .story-right .story-image div:first-child {
+        grid-area: 1 / 1 / 1 / 5;
+    }
+    .section2-about .story-about .story-right .story-image div:nth-child(2) {
+        grid-area: 2 / 1 / 2 / 3;
+    }
+    .section2-about .story-about .story-right .story-image div:nth-child(3) {
+        grid-area: 2 / 3 / 2 / 5;
+    }
+    .section2-about .story-about .story-right .story-image div:last-child {
+        grid-area: 3 / 1 / 3 / 5;
+    }
+    .section2-about {
+        padding: 40px 24px 48px;
+    }
+    .section1-about .about-content {
+        padding: 24px 24px 0;
+        .h2-title {
+            font-size: 32px;
+        }
+    }
+}
+
+/* =================================== CONTACT ======================= */ 
+@media (max-width: 1030px) {
+    .form {
+        padding: 80px 40px;
+        .form-container {
+            .form-right {
+                padding: 0;
+                padding-left: 40px;
+            }
+            .form-left {
+                padding: 0;
+                padding-right: 40px;
+                h2 {
+                    font-size: 40px;
+                    line-height: 48px;
+                }
+                .form-link i {
+                    font-size: 24px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .form {
+        padding: 0;
+    }
+    .form .form-container {
+        grid-template-columns: 1fr;
+        .form-left {
+            padding: 48px 24px;
+        }
+        .form-right {
+            padding: 48px 24px;
+        }
+    }
+}

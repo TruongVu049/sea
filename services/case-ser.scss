@@ -1,0 +1,20 @@
+.case-ser {
+    padding: 80px 40px;
+    .case-grid {
+        padding: 0;
+        align-items: center;
+        padding-bottom: 70px;
+        margin-bottom: 60px;
+        border-bottom: 1px solid $gray-color;
+        .case-left {
+            padding: 0 24px 0 64px;
+        }
+        .case-right {
+            .case-wapper {
+                background-image: none;
+                padding: 0;
+            }
+        }
+    }
+
+}

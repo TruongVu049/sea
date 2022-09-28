@@ -1,0 +1,20 @@
+/* ============================================================ OUR ======================================= */
+
+.section6 {
+    background-color: $bg-color;
+}
+.our {
+    h6 {
+        text-align: center;
+        line-height: 27px;
+        font-weight: 700;
+        font-size: 18px;
+        color: $dark-color;
+        padding-bottom: 20px;
+    }
+    .our-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+    }
+}

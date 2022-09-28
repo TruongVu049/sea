@@ -1,0 +1,153 @@
+/* ================================================= BASE ========================================= */
+
+@import "variable";
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sora', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+.img-res {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+@mixin bg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+ul {
+    list-style: none;
+}
+a {
+    font-size: 13px;
+}
+span, p {
+    font-size: 16px;
+}
+::selection {
+    background-color: $primary-color;
+    color: $white-color;
+    transition: 0.3s;
+}
+.pad-sec {
+    padding: 120px 40px;
+}
+@mixin between-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin al-center {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    color: $gray-color;
+    line-height: 29px;
+    .btn-a {
+        border: 1px solid $primary-color;
+        display: inline-block;
+        fill: $white-color;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 13px;
+        padding: 15px 23px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.3s;
+        color: $primary-color;
+    }
+    .btn-a:hover {
+        color: $white-color;
+        background-color: $primary-color;
+    }
+}
+.h5-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    color: $primary-color;
+}
+.h2-title {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 67px;
+}
+.bg-color {
+    background-color: #f3f4f6;
+}
+
+/* ================= PATH ======================== */
+.box-bottom {
+    transform: rotate(180deg);
+    bottom: -1px;
+    overflow: hidden;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    line-height: 0;
+    direction: 1tr;
+    svg {
+        height: 120px;
+        transform: translateX(-50%) rotateY(180deg);
+        display: block;
+        width: calc(100% + 1.3px);
+        position: relative;
+        left: 50%;
+    }
+    path {
+        fill: $bg-color;
+        transform-origin: center;
+    
+    }
+}
+.box-top {
+    top: -1px;
+    overflow: hidden;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    line-height: 0;
+    direction: 1tr;
+    svg {
+        height: 120px;
+        transform: translateX(-50%) rotateY(180deg);
+        display: block;
+        width: calc(100% + 1.3px);
+        position: relative;
+        left: 50%;
+    }
+    path {
+        fill: $white-color;
+        transform-origin: center;
+    
+    }
+}
+header .header-nav .nav-left .nav-link .active {
+    color: $dark-color;
+}
+header .header-nav .nav-left .link-home {
+    line-height: normal;
+    padding: 0;
+}

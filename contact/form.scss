@@ -1,0 +1,93 @@
+.form { 
+    background-color: $bg-color;
+    padding: 0 40px;
+    .form-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .form-left {
+            padding: 120px 96px 120px 0;
+            background-color: $white-color;
+            h2 {
+                color: $dark-color;
+                font-size: 56px;
+                line-height: 67px;
+                font-weight: 800;
+                padding-bottom: 16px;
+            }
+            p {
+                color: $dark-color;
+                line-height: 29px;
+            }
+            hr {
+                margin: 40px 0 30px;
+            }
+            h6 {
+                color: $dark-color;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 30px;
+            }
+            .form-link {
+                padding-top: 20px;
+                i {
+                    padding-right: 30px;
+                    font-size: 32px;
+                    line-height: 32px;
+                    text-align: center;
+                }
+            }
+        }
+        .form-right {
+            padding: 120px 48px 80px 96px;
+            background-color: $bg-color;
+            form {
+                label {
+                    display: block;
+                    color: $gray-color;
+                    line-height: 29px;
+                    font-weight: 700;
+                    position: relative;
+                    padding: 4px 0;
+                }
+                label::after {
+                    content: "*";
+                    position: absolute;
+                    padding-left: 4px;
+                    color: red;
+                }
+                input, textarea {
+                    width: 100%;
+                    background-color: #fafafa;
+                    border: 1.2px solid #dddddd;
+                    color: #666666;
+                    line-height: 16px;
+                    padding: 12px;
+                    margin-bottom: 10px;
+                    border-radius: 2px;
+                }
+                textarea {
+                    height: 120px;
+                    line-height: 29px;
+                
+                }
+                button {
+                    border: none;
+                    padding: 0;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+}
+
+.section5 {
+    position: sticky;
+}
+.section4 {
+    position: sticky;
+}
+.header-work .header-main h1 {
+    margin-top: 0;
+    transform: translateY(40px);
+}

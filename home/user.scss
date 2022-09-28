@@ -1,0 +1,58 @@
+/* ====================================== USER ==================================== */
+
+.section4 {
+    background-color: $bg-color;
+    position: relative;
+    padding: 48px 40px 16px;
+    .user {
+        position: relative;
+        padding: 0 40px;
+        text-align: center;
+        z-index: 99;
+        .i-left {
+            color: $gray-color;
+            line-height: 29px;
+            text-align: left;
+            i {
+                color: #2ccab9;
+                font-size: 100px;
+                font-weight: 900;
+                line-height: 80px;
+                text-align: center;
+                transform: translateY(14px);
+            }
+        }
+        .i-right {
+            color: $gray-color;
+            line-height: 29px;
+            text-align: right;
+            i {
+                color: $second-color;
+                font-size: 148px;
+                font-weight: 900;
+                line-height: 128px;
+                text-align: center;
+                transform: translateY(-10px);
+            }
+        }
+        img {
+            border-radius: 50%;
+        }
+        .content {
+            color: $dark-color;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 56px;
+            padding: 20px 0;
+        }
+        .name {
+            color: $gray-color;
+            font-weight: 600;
+            letter-spacing: 2px;
+            line-height: 24px;
+            text-transform: uppercase;
+        }
+
+
+    }
+}

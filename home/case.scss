@@ -1,0 +1,71 @@
+/* ================================================ CASE =================================== */
+
+.section5 {
+    background-color: $bg-color;
+}
+.case {
+    text-align: center;
+    h5 {
+        padding-bottom: 20px;
+    }
+    .case-grid {
+        padding-top: 84px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .case-left {
+            text-align: left;
+            color: $gray-color;
+            padding: 0 88px 0 48px;
+            h3 {
+                color: $dark-color;
+                font-size: 40px;
+                font-weight: 800;
+                line-height: 48px;
+            }
+            p {
+                line-height: 29px;
+                padding: 20px 0;
+            }
+            .case-i {
+                padding-bottom: 10px;
+            }
+            i {
+                padding-right: 10px;
+            }
+            .btn {
+                margin-top: 40px;
+            }
+        }
+        .case-left-2 {
+            padding: 0 48px 0 88px;
+        }
+    }
+    .case-right {
+        .case-wapper {
+            padding: 40px 48px 40px 0;
+            display: flex;
+            position: relative;
+            width: 100%;
+            background-image: url(https://websitedemos.net/public-relations-agency-04/wp-content/uploads/sites/875/2021/06/stripped-line-triangle-l.svg);
+            background-repeat: no-repeat;
+        }
+        .case-overlay {
+            background-image: url(https://websitedemos.net/public-relations-agency-04/wp-content/uploads/sites/875/2021/06/stripped-line-triangle-blue-b.svg);
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            opacity: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .case-img {
+            z-index: 99;
+        }
+        
+    }
+    
+}

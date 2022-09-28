@@ -1,0 +1,58 @@
+/* ==================================== CASE ========================================== */
+.section5-work {
+    .case-i i {
+        color: $second-color;
+    }
+    .h5-title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .case-grid {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .case-grid-work {
+        padding-bottom: 110px;
+    }
+    .btn-view {
+        margin-top: 20px;
+        line-height: 29px;
+        color: $gray-color;
+        a {
+            color: $primary-color;
+            fill: $primary-color;
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            line-height: 13px;
+            padding: 8px 0;
+            text-transform: uppercase;
+            text-align: center;
+            transition: .4s;
+        }
+        a:hover {
+            border-bottom: 2px solid $primary-color;
+        }
+        span {
+            color: $primary-color;
+            fill: $primary-color;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            line-height: 13px;
+            padding: 8px 0;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+    .case-right .case-wapper {
+        padding: 48px;
+    }
+    .case-right-2 .case-wapper{
+        background-image: none;
+    }
+    .case .case-grid .case-left-2 {
+        padding: 0 88px 0 48px;
+    }
+}

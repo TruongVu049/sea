@@ -1,0 +1,21 @@
+/* ================================================= HI-THERE ==============================* */
+
+.section1 {
+    h5 {
+        margin-bottom: 48px;
+    }
+    .hi-there {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        p {
+            opacity: 0.8;
+            line-height: 29px;
+            color: $gray-color;
+        }
+        .btn {
+            margin-top: 16px;
+        }
+    }
+
+
+}
